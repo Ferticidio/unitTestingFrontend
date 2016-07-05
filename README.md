@@ -1,5 +1,9 @@
 # Unit testing in Frontend - Jasmine
 
+## Tags
+The "levels" of the tutorial are in tags. The introduction is in 0.0.1:
+
+```$ git checkout tags/0.0.1```
 
 ## First step: setting up the environment
 
