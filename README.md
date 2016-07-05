@@ -9,7 +9,7 @@ The "levels" of the tutorial are in tags. The introduction is in 0.0.1:
 
 ### Set the local nodemodule folder in PATH
 
-Add export PATH="./node_modules/.bin:$PATH"` to `~/.bashrc` or `~/.profile`
+Add export `PATH="./node_modules/.bin:$PATH"` to `~/.bashrc` or `~/.profile`
 
 ### Install jasmine
 ```
