@@ -34,6 +34,15 @@ describe("Calc test suite:", function() {
         expect(res).not.toBe(17);
     });
 
+    it("should divide first number by the second", function () {
+        var a = 10,
+            b = 5;
+
+        var res = calc.divide(a, b);
+
+        expect(res).toBe(2);
+    });
+
     describe("Mulitply: ", function () {
 
         it("should multiply two numbers", function () {
@@ -52,14 +61,5 @@ describe("Calc test suite:", function() {
             expect(calc.multiply(a, b)).toBe(calc.multiply(b, a));
         });
 
-    });
-
-    it("should divide first number by the second", function () {
-        var a = 10,
-            b = 5;
-
-        var res = calc.divide(a, b);
-
-        expect(res).toBe(2);
     });
 });
