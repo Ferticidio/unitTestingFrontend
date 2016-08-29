@@ -4,7 +4,7 @@
   "description": "Unit testing in Frontend Tutorial - Jasmine ",
   "main": "calc.test.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "karma start --single-run"
   },
   "contributors": [
     "Sebastián Bogado <sebastian.bogado@fdvsolutions.com>"
