@@ -1,18 +1,3 @@
-var calc = {
-    add: function (a, b) {
-        return a + b;
-    },
-    substract: function (a, b) {
-        return a - b;
-    },
-    multiply: function (a, b) {
-        return a * b;
-    },
-    divide: function (a, b) {
-        return a / b;
-    }
-};
-
 describe("Calc test suite:", function() {
 
     it("should add two numbers", function () {
