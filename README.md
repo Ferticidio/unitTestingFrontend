@@ -24,6 +24,8 @@ jasmine init
 
 Run with `npm test` or `jasmine`
 
+## Level 2
+In this level we will known karma, separation of concerns and MVC.
 
 ## Some nice stuff
 
