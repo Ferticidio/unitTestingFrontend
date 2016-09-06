@@ -1,0 +1,42 @@
+<html>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.slim.min.js"></script>
+    <script type="text/javascript" src="calc.js"></script>
+    <script type="text/javascript" src="calc.controller.js"></script>
+<body onload="CalcController.init()">
+
+    <h1> Ugliest calc evah!</h1>
+
+    <div id="add">
+        Add:
+        <input/>
+        <input/>
+        <button onclick="CalcController.add()">Calc!</button>
+        Result: <span class="result"></span>
+    </div>
+
+    <div id="substract">
+        Susbstract:
+        <input/>
+        <input/>
+        <button onclick="CalcController.substract()">Calc!</button>
+        Result: <span class="result"></span>
+    </div>
+
+    <div id="multiply">
+        Multiply:
+        <input/>
+        <input/>
+        <button onclick="CalcController.multiply()">Calc!</button>
+        Result: <span class="result"></span>
+    </div>
+
+    <div id="divide">
+        Divide:
+        <input/>
+        <input/>
+        <button onclick="CalcController.divide()">Calc!</button>
+        Result: <span class="result"></span>
+    </div>
+
+</body>
+</html>
